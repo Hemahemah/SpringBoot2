@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+person:
+  name: zhangsan
+
+spring:
+  profiles:
+    active: myprod
+
+    group:
+      myprod[0]: pdd
+      myprod[1]: prod
+
+      mytest[0]: test

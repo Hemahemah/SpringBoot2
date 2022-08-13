@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Welcome</h1>
+    测试Rest风格:
+  <form action="/user" method="get">
+      <input type="submit" value="get">
+  </form>
+  <form action="/user" method="post">
+      <input type="submit" value="post">
+  </form>
+  <form action="/user" method="post">
+      <input type="hidden" name="_heMa" value="PUT">
+      <input type="submit" value="put">
+  </form>
+  <form action="/user" method="post">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete">
+  </form>
+
+  <hr>
+
+    <ul>
+        <a href="/car/3/owner/lisi?age=3&inters=a&inters=b">@PathVariable(路径变量)</a>
+    </ul>
+
+  <hr>
+
+  <form action="/save" method="post">
+      用户名: <input type="text" name="userName"> <br>
+      邮箱: <input type="text" name="email"> <br>
+      <input type="submit" value="提交">
+  </form>
+
+  <hr>
+
+  <a href="/cars/sell;low=34;brand=byd,auto,yd">矩阵变量</a> <br>
+  <a href="/boss/1;age=20/2;age=10">矩阵变量2</a> <br>
+
+  <hr>
+
+  <form action="/savePerson" method="post">
+      姓名： <input name="userName"/> <br/>
+      年龄： <input name="age"/> <br/>
+      生日： <input name="birth"> <br/>
+      宠物姓名：<input name="pet.name"/><br/>
+      宠物年龄：<input name="pet.age"/>
+      <input type="submit" value="提交">
+  </form>
+
+  <hr>
+  <form action="/savePerson" method="post">
+      姓名： <input name="userName"/> <br/>
+      年龄： <input name="age"/> <br/>
+      生日： <input name="birth"> <br/>
+      宠物：<input name="pet"/><br/>
+      <input type="submit" value="提交">
+  </form>
+
+</body>
+</html>

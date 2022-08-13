@@ -1,0 +1,21 @@
+server:
+  port: 8090
+spring:
+  #mvc:
+  #static-path-pattern: /res/**
+  web:
+    resources:
+      static-locations:
+        [ classpath:/haha/]
+      add-mappings: true #false禁用所有静态资源
+
+  #开启rest风格
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    #开启浏览器内容协商协商
+    contentnegotiation:
+      favor-parameter: true
+
+

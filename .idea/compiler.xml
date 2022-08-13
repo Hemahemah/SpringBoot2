@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot2-demo6" />
+        <module name="springboot2-demo5" />
+        <module name="SpringBoot2-demo7" />
+        <module name="SpringBoot2-demo1" />
+        <module name="SpringBoot2-demo2" />
+        <module name="springboot2-demo4" />
+        <module name="SpringBoot2-demo3" />
+        <module name="SpringBoot2-demo4" />
+        <module name="SpringBoot2-test" />
+        <module name="SpringBoot2-thread" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot2-demo1" target="1.8" />
+      <module name="SpringBoot2-demo2" target="1.8" />
+      <module name="SpringBoot2-demo3" target="11" />
+      <module name="springboot2-demo4" target="11" />
+      <module name="SpringBoot2-demo4" target="11" />
+      <module name="springboot2-demo5" target="11" />
+      <module name="SpringBoot2-demo6" target="11" />
+      <module name="SpringBoot2-demo7" target="11" />
+      <module name="SpringBoot2-test" target="11" />
+      <module name="SpringBoot2-thread" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot2-demo1" options="-parameters" />
+      <module name="SpringBoot2-demo2" options="-parameters" />
+      <module name="SpringBoot2-demo3" options="-parameters" />
+      <module name="SpringBoot2-demo4" options="-parameters" />
+      <module name="SpringBoot2-demo6" options="-parameters" />
+      <module name="SpringBoot2-demo7" options="-parameters" />
+      <module name="SpringBoot2-test" options="-parameters" />
+      <module name="SpringBoot2-thread" options="-parameters" />
+      <module name="springboot2-demo4" options="-parameters" />
+      <module name="springboot2-demo5" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+person:
+  #单引号会将 /n 作为字符串输出 双引号将 /n 作为换行输出(不进行转义)
+  boss: true
+  birth: 2019/12/9
+  age: 10
+  interests:
+    - 蓝球
+    - 足球
+  animal: [cat,dog]
+  score: {english: 80,math: 90}
+  salarys:
+    - 9999
+    - 9988
+  pet:
+    name: dog
+    weight: 99.99
+  allPets:
+    sick:
+      - {name: dogg,weight: 99.99}
+      - name: www
+        weight: 88.88
+      - name: bug
+        weight: 77.77
+    health:
+      - {name: dsgg,weight: 22.99}
+      - {name: asd,weight: 33.99}
+  user-name: zhangsang
+
+
+
+

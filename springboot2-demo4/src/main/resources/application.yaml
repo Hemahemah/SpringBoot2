@@ -1,0 +1,21 @@
+server:
+  port: 8090
+
+spring:
+  web:
+    resources:
+      static-locations:
+        [ classpath:/haha/ ]
+      add-mappings: true #false禁用所有静态资源
+  #开启rest风格
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot2.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-demo1/SpringBoot2-demo1.iml" filepath="$PROJECT_DIR$/SpringBoot2-demo1/SpringBoot2-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-demo2/SpringBoot2-demo2.iml" filepath="$PROJECT_DIR$/SpringBoot2-demo2/SpringBoot2-demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-demo3/SpringBoot2-demo3.iml" filepath="$PROJECT_DIR$/SpringBoot2-demo3/SpringBoot2-demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-demo6/SpringBoot2-demo6.iml" filepath="$PROJECT_DIR$/SpringBoot2-demo6/SpringBoot2-demo6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-demo7/SpringBoot2-demo7.iml" filepath="$PROJECT_DIR$/SpringBoot2-demo7/SpringBoot2-demo7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-test/SpringBoot2-test.iml" filepath="$PROJECT_DIR$/SpringBoot2-test/SpringBoot2-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot2-thread/SpringBoot2-thread.iml" filepath="$PROJECT_DIR$/SpringBoot2-thread/SpringBoot2-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2-demo4/springboot2-demo4.iml" filepath="$PROJECT_DIR$/springboot2-demo4/springboot2-demo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2-demo5/springboot2-demo5.iml" filepath="$PROJECT_DIR$/springboot2-demo5/springboot2-demo5.iml" />
+    </modules>
+  </component>
+</project>
